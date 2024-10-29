@@ -1,0 +1,40 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100vh;
+    transition: 0.3s;
+    background-image: url(Imagenes/Img1.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+div{
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 10px;
+    width: 700px;
+    margin-top: 560px;
+}
+
+
+button{
+    margin: 4px;
+    border: 1px solid;
+    border-radius: 5px;
+}
+
+button:hover{
+    height: 80px;
+    width: 160px;
+}
