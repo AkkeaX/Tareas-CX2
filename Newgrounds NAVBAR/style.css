@@ -1,0 +1,74 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    height: 100vh;
+}
+
+header {
+    background-color: #000B0D;
+    color: white;
+}
+
+
+#logo1 {
+    width: 300px;
+}
+
+a {
+    color: yellow;
+}
+
+p{
+    padding-right: 65px;
+}
+
+#upperHeader {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #202022;
+    padding-left: 150px;
+}
+
+#Busqueda {
+    padding: 15px;
+    font-size: smaller;
+    height: 40px;
+    margin: 14px;
+    border-radius: 20px;
+    border: none;
+    background-color: gray;
+    width: 250px;
+}
+
+input::placeholder {
+    color: black;
+}
+
+#logo,
+input,
+p {
+    margin: 0px 95px 0px 95px;
+}
+
+nav ul {
+    display: flex;
+    list-style-type: none;
+    align-items: center;
+    justify-content: center;
+}
+
+nav ul li {
+    padding: 12px 50px 12px 50px;
+}
+
+li:hover{
+    text-shadow: 0px 0px 15px;
+    border-bottom: 2px solid white;
+    transition: 0.1s;
+}
