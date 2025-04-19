@@ -1,0 +1,100 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    background-color: red;
+    text-align: center;
+    align-items: center;
+}
+
+header{
+    background-color: white;
+    display: flex;
+    padding: 6px;
+    background-color: pink;
+}
+
+nav{
+    flex-direction: column;
+    width: auto;
+    background-color: cyan;
+    margin: 8px;
+    margin-left: 0px;
+    padding: 5px;
+}
+
+.menu{
+    list-style: none;
+    margin: 4px;
+    padding-left: 10px;
+    display: flex;
+    background-color: blue;
+}
+
+.submenu{
+    list-style: none;
+    padding: 2px;
+    background-color: red;
+    width: 100px;
+    margin: 3px; 
+}
+.grupo{
+    display: flex;  
+    background-color: aqua;
+    border-radius: 4px;
+    width: 100px;
+    margin-left: 3px;
+    padding: 3px;
+}
+
+.clase{
+    background-color: violet;
+}
+
+
+#logo{
+    background-color: green;
+    height: 500px;
+    width: 50px;
+    margin: 8px;
+}
+
+h1{
+    display: flex;
+    background-color: yellow;
+    padding: 6px;
+    margin: 3px;
+    margin-top: 20px;
+}
+
+.flist{
+    background-color:  coral;
+}
+
+.subgrupo{
+    background-color: blueviolet;
+    margin-top: 10px;
+}
+
+.subcuadro{
+    height: 5px;
+    width: 5px;
+    background-color:gold;
+}
+
+.minilogo{
+    height: 5px;
+    width: 5px;
+    background-color:rgb(0, 17, 255);
+    display: flex;
+}
+
+.slist{
+background-color: rgb(72, 255, 0);
+margin: 4px;
+padding: 5px;
+}
