@@ -1,61 +1,105 @@
-*{
-    padding: 0;
+body {
+    font-family: 'Arial', sans-serif;
     margin: 0;
-    box-sizing: border-box;
+    padding: 0;
+    background-color: #f4f4f4;
 }
 
-header{
-    background-color: pink;
+header {
+    display: flex;
+    background-color: #ffffff;
+}
+
+.navbar {
+    padding: 0px;
+}
+
+#logo {
+    padding: 10px;
+}
+
+#loguito{
+    font-size: 2.5rem;
+}
+
+h1 {
+    padding: 0;
+    margin: 0;
+    font-size: 25px;
+}
+
+.menu {
+    list-style: none;
+    padding: 0;
+    margin: 0;
     display: flex;
 }
 
-.logo{background-color: green;
-}
-
-.navbar{
-    background-color: lime;
-}
-
-h1{
-    background-color: yellow;
-}
-
-ul{
-    background-color: purple;
-}
-
-.menu{
-    background-color: rgb(86, 43, 226);
-}
-
-.flist{
-    background-color: brown;
+.flist {
+    position: relative;
+    margin-right:  4px;
 }
 
 .grupo {
-    background-color: cyan;
+    font-size: 14px;
+    cursor: pointer;
+    padding: 4px 6px 4px 6px;
+    margin: 5px 0 0 0 ;
+    border-radius: 4px;
+    transition: background-color 0.3s;
 }
 
-.submenu{
-    background-color: red;
+
+.grupo:hover {
+    background-color: #d0d0d0;
 }
 
-.slist{
-    background-color: rgb(207, 255, 104);
+.submenu {
+    display: none;
+    position: absolute;
+    background-color: #ffffff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    list-style: none;
+    padding: 5px 0 5px 0;
+}
+
+
+.flist:hover .submenu {
+    display: block;
+    padding: 0px 1px 0px 1px;
+    margin: 0px;
+}
+
+.slist {
+    padding: 8px 0px 6px 0px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.slist:hover {
+    background-color: #f0f0f0;
+}
+
+.minilogo {
+    width: 16px;
+    height: 16px;
+    margin-right: 8px;
+    background-color: yellow;
+}
+
+.clase {
+    background-color: violet;
+    font-size: 14px;
+}
+
+.subcuadro {
+    width: 10px;
+    height: 10px;
+    background-color: #007bff;
+    border-radius: 50%;
+    margin-left: 5px;
 }
 
 .subgrupo{
-    background-color: rgb(18, 18, 255);
-}
-
-.minilogo{
-    background-color: rgb(248, 248, 168);
-}
-
-.clase{
-    background-color: violet;
-}
-
-.subcuadro{
-    background-color: rgb(248, 248, 168);
+    display: flex;
 }
